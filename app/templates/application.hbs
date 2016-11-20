@@ -1,47 +1,4 @@
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-    <ul class="w3-navbar w3-white w3-card-2" id="myNavbar">
-        <li>
-            {{#link-to "home" class="w3-wide"}}BELTZ.NINJA{{/link-to}}
-        </li>
-        <!-- Right-sided navbar links -->
-        <li class="w3-right w3-hide-small">
-            {{#link-to "about"}}<i class="fa fa-user"></i> ABOUT{{/link-to}}
-            {{#link-to "history"}}<i class="fa fa-history"></i> HISTORY{{/link-to}}
-            {{#link-to "terminology"}}<i class="fa fa-book"></i> TERMINOLOGY{{/link-to}}
-            {{#link-to "contact"}}<i class="fa fa-envelope"></i> CONTACT{{/link-to}}
-        </li>
-        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-        <li>
-            <a href="javascript:void(0)" class="w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-                <i class="fa fa-bars w3-padding-right w3-padding-left"></i>
-            </a>
-        </li>
-    </ul>
-</div>
-
-<!-- Sidenav on small screens when clicking the menu icon -->
-<nav class="w3-sidenav w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidenav">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-large w3-padding-16">Close ×</a>
-    {{#link-to "about" onclick="w3_close()"}}ABOUT{{/link-to}}
-    {{#link-to "history" onclick="w3_close()"}}HISTORY{{/link-to}}
-    {{#link-to "terminology" onclick="w3_close()"}}TERMINOLOGY{{/link-to}}
-    {{#link-to "contact" onclick="w3_close()"}}CONTACT{{/link-to}}
-</nav>
-
 {{outlet}}
 
-<!-- Footer -->
-<footer class="w3-center w3-black">
-    <div class="w3-xlarge w3-padding-top">
-        <a href="https://www.facebook.com/kikki.tkd"><i class="fa fa-facebook-official w3-hover-text-indigo"></i></a>
-        <a href="https://www.youtube.com/channel/UCdxZ4Ajyou1f-zxw1GCoEYg"><i class="fa fa-youtube-play w3-hover-text-red"></i></a>
-        <a href="https://www.instagram.com/kikki_tkd"><i class="fa fa-instagram w3-hover-text-purple"></i></a>
-            <a href="https://www.twitter.com/kikki_tkd"><i class="fa fa-twitter w3-hover-text-light-blue"></i></a>
-    </div>
-    <div class="w3-right-align">
-        <span class="w3-small w3-text-grey w3-padding-right">Some icons made by <a href="http://www.freepik.com/">Freepik</a> from <a href="www.flaticon.com">Flaticon</a></span>
-    </div>
-</footer>
 
 
