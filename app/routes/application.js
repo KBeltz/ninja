@@ -2,9 +2,18 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
+    // Categories
+    // 100: Category
+    // 200: Numbers
+    // 300: Blocks
+    // 400: Punches
+    // 500: Strikes
+    // 600: Kicks
+    // 700: Stances
+    // 800: Miscellaneous
     this.store.push({
       data: [{
-        id: 1,
+        id: 100,
         type: 'terminology',
         attributes: {
           term: 'Numbers',
@@ -12,11 +21,11 @@ export default Ember.Route.extend({
           kanji: '',
           korean: '',
           hangul: '',
-          category: 'Category'
+          category: ''
         },
         relationships: {}
       }, {
-        id: 2,
+        id: 200,
         type: 'terminology',
         attributes: {
           term: 'One',
@@ -28,7 +37,7 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 3,
+        id: 201,
         type: 'terminology',
         attributes: {
           term: 'Two',
@@ -40,7 +49,7 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 4,
+        id: 202,
         type: 'terminology',
         attributes: {
           term: 'Three',
@@ -52,7 +61,7 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 5,
+        id: 203,
         type: 'terminology',
         attributes: {
           term: 'Four',
@@ -64,7 +73,7 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 6,
+        id: 204,
         type: 'terminology',
         attributes: {
           term: 'Five',
@@ -76,7 +85,7 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 7,
+        id: 205,
         type: 'terminology',
         attributes: {
           term: 'Six',
@@ -88,7 +97,7 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 8,
+        id: 206,
         type: 'terminology',
         attributes: {
           term: 'Seven',
@@ -100,7 +109,7 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 9,
+        id: 207,
         type: 'terminology',
         attributes: {
           term: 'Eight',
@@ -112,7 +121,7 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 10,
+        id: 208,
         type: 'terminology',
         attributes: {
           term: 'Nine',
@@ -124,7 +133,7 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 11,
+        id: 209,
         type: 'terminology',
         attributes: {
           term: 'Ten',
@@ -136,7 +145,7 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 12,
+        id: 101,
         type: 'terminology',
         attributes: {
           term: 'Miscellaneous',
@@ -144,11 +153,11 @@ export default Ember.Route.extend({
           kanji: '',
           korean: '',
           hangul: '',
-          category: 'Category'
+          category: ''
         },
         relationships: {}
       }, {
-        id: 13,
+        id: 800,
         type: 'terminology',
         attributes: {
           term: 'The place where one trains',
@@ -160,13 +169,73 @@ export default Ember.Route.extend({
         },
         relationships: {}
       }, {
-        id: 14,
+        id: 801,
         type: 'terminology',
         attributes: {
           term: 'Uniform',
           japanese: 'Gi',
           kanji: '',
           korean: 'Dobok',
+          hangul: '',
+          category: 'Miscellaneous'
+        },
+        relationships: {}
+      }, {
+        id: 802,
+        type: 'terminology',
+        attributes: {
+          term: 'Begin',
+          japanese: 'Hajime',
+          kanji: '',
+          korean: '',
+          hangul: '',
+          category: 'Miscellaneous'
+        },
+        relationships: {}
+      }, {
+        id: 803,
+        type: 'terminology',
+        attributes: {
+          term: 'Bow',
+          japanese: 'Rei',
+          kanji: '',
+          korean: '',
+          hangul: '',
+          category: 'Miscellaneous'
+        },
+        relationships: {}
+      }, {
+        id: 804,
+        type: 'terminology',
+        attributes: {
+          term: 'Basic',
+          japanese: 'Kihon',
+          kanji: '',
+          korean: '',
+          hangul: '',
+          category: 'Miscellaneous'
+        },
+        relationships: {}
+      }, {
+        id: 805,
+        type: 'terminology',
+        attributes: {
+          term: 'Technique',
+          japanese: 'Waza',
+          kanji: '',
+          korean: '',
+          hangul: '',
+          category: 'Miscellaneous'
+        },
+        relationships: {}
+      }, {
+        id: 806,
+        type: 'terminology',
+        attributes: {
+          term: 'Stop',
+          japanese: 'Yame',
+          kanji: '',
+          korean: '',
           hangul: '',
           category: 'Miscellaneous'
         },
