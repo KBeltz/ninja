@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('terminology');
   this.route('contact');
   this.route('history');
+  this.route('sources');
 });
 
 export default Router;
