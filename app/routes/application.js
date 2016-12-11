@@ -21,7 +21,7 @@ export default Ember.Route.extend({
           kanji: '',
           korean: '',
           hangul: '',
-          category: 'Numbers'
+          category: ''
         },
         relationships: {}
       }, {
@@ -153,7 +153,7 @@ export default Ember.Route.extend({
           kanji: '',
           korean: '',
           hangul: '',
-          category: 'Blocks'
+          category: ''
         },
         relationships: {}
       }, {
@@ -333,7 +333,7 @@ export default Ember.Route.extend({
           kanji: '',
           korean: '',
           hangul: '',
-          category: 'Punches'
+          category: ''
         },
         relationships: {}
       }, {
@@ -525,7 +525,7 @@ export default Ember.Route.extend({
           kanji: '',
           korean: '',
           hangul: '',
-          category: 'Miscellaneous'
+          category: ''
         },
         relationships: {}
       }, {
