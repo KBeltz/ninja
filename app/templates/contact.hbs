@@ -6,12 +6,12 @@
             <p><i class="fa fa-map-marker fa-fw w3-xlarge w3-margin-right"></i> Midwest Tae Kwon Do is located at 8812 Blondo Street in Omaha, NE</p>
             <p><i class="fa fa-envelope fa-fw w3-xlarge w3-margin-right"> </i> Email: <a href="mailto:kikki.tkd@gmail.com?Subject=Beltz.ninja" target="_top">kikki.tkd@gmail.com</a></p>
             <br>
-            <form action="form.asp" target="_blank">
-                <p>{{input type="text" placeholder="Name" name="Name" class="w3-input w3-border" value=name}}</p>
-                <!--<p>{{!input type="text" placeholder="Email" name="Email" class="w3-input w3-border" value=email}}</p>-->
-                <p>{{input type="text" placeholder="Subject" name="Subject" class="w3-input w3-border" value=subject}}</p>
-                <p>{{input type="text" placeholder="Message" name="Message" class="w3-input w3-border" value=message}}</p>
-                <p><button {{action 'sendEmail' name subject message}} class="w3-btn w3-round w3-padding" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button></p>
+            <form {{action 'sendEmail' name subject message on="submit"}} target="_blank">
+                <p>{{input type="text" required="required" placeholder="Name" name="Name" class="w3-input w3-border" value=name}}</p>
+                <!--<p>{{!input type="text" required="required" placeholder="Email" name="Email" class="w3-input w3-border" value=email}}</p>-->
+                <p>{{input type="text" required="required" placeholder="Subject" name="Subject" class="w3-input w3-border" value=subject}}</p>
+                <p>{{input type="text" required="required" placeholder="Message" name="Message" class="w3-input w3-border" value=message}}</p>
+                <p><button  class="w3-btn w3-round w3-padding" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button></p>
             </form>
         </div>
         <div class="w3-half w3-padding-12">
