@@ -151,7 +151,7 @@ export default Ember.Route.extend({
           term: 'Blocks',
           japanese: 'Uke',
           kanji: '',
-          korean: '',
+          korean: 'Makki',
           hangul: '',
           category: ''
         },
@@ -163,7 +163,7 @@ export default Ember.Route.extend({
           term: 'Upper/Rising Block',
           japanese: 'Age Uke',
           kanji: '',
-          korean: '',
+          korean: 'Chu-kyeo Makki',
           hangul: '',
           category: 'Blocks'
         },
@@ -175,211 +175,211 @@ export default Ember.Route.extend({
           term: 'Knife Hand Block',
           japanese: 'Shoto Uke',
           kanji: '',
-          korean: '',
+          korean: 'Sudo Makki',
           hangul: '',
           category: 'Blocks'
         },
         relationships: {}
       }, {
-        id: 302,
-        type: 'terminology',
-        attributes: {
-          term: 'Inside Center Block',
-          japanese: 'Uchi Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      }, {
+      //   id: 302,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Inside Center Block',
+      //     japanese: 'Uchi Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // }, {
         id: 303,
         type: 'terminology',
         attributes: {
           term: 'Down/Lower Block',
           japanese: 'Gedan Barai',
           kanji: '',
-          korean: '',
+          korean: 'Nae-ryeo Makki',
           hangul: '',
           category: 'Blocks'
         },
         relationships: {}
       }, {
-        id: 304,
-        type: 'terminology',
-        attributes: {
-          term: 'Outside Center Block',
-          japanese: 'Shoto Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      }, {
-        id: 305,
-        type: 'terminology',
-        attributes: {
-          term: 'Middle Level Block',
-          japanese: 'Chudan Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      }, {
-        id: 306,
-        type: 'terminology',
-        attributes: {
-          term: 'Upper Level Block',
-          japanese: 'Jodan Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      }, {
-        id: 307,
-        type: 'terminology',
-        attributes: {
-          term: 'Lower Level Block',
-          japanese: 'Gedan Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      }, {
-        id: 308,
-        type: 'terminology',
-        attributes: {
-          term: 'Knee Block',
-          japanese: 'Hiza Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      }, {
-        id: 309,
-        type: 'terminology',
-        attributes: {
-          term: 'X-Block',
-          japanese: 'Juji Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      }, {
-        id: 310,
-        type: 'terminology',
-        attributes: {
-          term: 'Augmented Block',
-          japanese: 'Morote Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      }, {
-        id: 311,
-        type: 'terminology',
-        attributes: {
-          term: 'Sweeping Block',
-          japanese: 'Nagashi Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      }, {
-        id: 312,
-        type: 'terminology',
-        attributes: {
-          term: 'Rising Hand Block',
-          japanese: 'Sashite Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      }, {
-        id: 313,
-        type: 'terminology',
-        attributes: {
-          term: 'Palm Heel Block',
-          japanese: 'Teishi Uke',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Blocks'
-        },
-        relationships: {}
-      },  {
+      //   id: 304,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Outside Center Block',
+      //     japanese: 'Shoto Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 305,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Middle Level Block',
+      //     japanese: 'Chudan Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 306,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Upper Level Block',
+      //     japanese: 'Jodan Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 307,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Lower Level Block',
+      //     japanese: 'Gedan Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 308,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Knee Block',
+      //     japanese: 'Hiza Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 309,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'X-Block',
+      //     japanese: 'Juji Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 310,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Augmented Block',
+      //     japanese: 'Morote Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 311,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Sweeping Block',
+      //     japanese: 'Nagashi Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 312,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Rising Hand Block',
+      //     japanese: 'Sashite Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 313,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Palm Heel Block',
+      //     japanese: 'Teishi Uke',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Blocks'
+      //   },
+      //   relationships: {}
+      // },  {
         id: 104,
         type: 'terminology',
         attributes: {
           term: 'Punches',
           japanese: 'Zuki',
           kanji: '',
-          korean: '',
+          korean: 'Chirigi',
           hangul: '',
           category: ''
         },
         relationships: {}
       }, {
-        id: 400,
-        type: 'terminology',
-        attributes: {
-          term: 'Upper/Rising Punch',
-          japanese: 'Age Zuki',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Punches'
-        },
-        relationships: {}
-      }, {
-        id: 401,
-        type: 'terminology',
-        attributes: {
-          term: 'U Punch',
-          japanese: 'Awase Zuki',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Punches'
-        },
-        relationships: {}
-      }, {
-        id: 402,
-        type: 'terminology',
-        attributes: {
-          term: 'Straight Punch',
-          japanese: 'Choku Zuki',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Punches'
-        },
-        relationships: {}
-      }, {
+      //   id: 400,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Upper/Rising Punch',
+      //     japanese: 'Age Zuki',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Punches'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 401,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'U Punch',
+      //     japanese: 'Awase Zuki',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Punches'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 402,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Straight Punch',
+      //     japanese: 'Choku Zuki',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Punches'
+      //   },
+      //   relationships: {}
+      // }, {
         id: 403,
         type: 'terminology',
         attributes: {
           term: 'Middle Punch',
           japanese: 'Chudan Zuki',
           kanji: '',
-          korean: '',
+          korean: 'Ka-un-dae Chirigi',
           hangul: '',
           category: 'Punches'
         },
@@ -388,10 +388,10 @@ export default Ember.Route.extend({
         id: 404,
         type: 'terminology',
         attributes: {
-          term: 'Reverse Punch',
-          japanese: 'Gyaku Zuki',
+          term: 'Face Level/High Punch',
+          japanese: 'Jodan Zuki',
           kanji: '',
-          korean: '',
+          korean: 'Nop-eun-dae Chirigi',
           hangul: '',
           category: 'Punches'
         },
@@ -400,120 +400,168 @@ export default Ember.Route.extend({
         id: 405,
         type: 'terminology',
         attributes: {
-          term: 'Middle Level Block',
-          japanese: 'Chudan Uke',
+          term: 'Reverse Punch',
+          japanese: 'Gyaku Zuki',
           kanji: '',
-          korean: '',
+          korean: 'Pon Tay Chirigi',
           hangul: '',
           category: 'Punches'
         },
         relationships: {}
       }, {
-        id: 406,
+      //   id: 406,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Double U Punch',
+      //     japanese: 'Morote Zuki',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Punches'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 407,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Lunge Punch',
+      //     japanese: 'Oi Zuki',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Punches'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 408,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Vertical Punch',
+      //     japanese: 'Tate Zuki',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Punches'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 409,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Palm Heel Punch',
+      //     japanese: 'Teisho Zuki',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Punches'
+      //   },
+      //   relationships: {}
+      // }, {
+      //   id: 410,
+      //   type: 'terminology',
+      //   attributes: {
+      //     term: 'Close Punch',
+      //     japanese: 'Ura Zuki',
+      //     kanji: '',
+      //     korean: '',
+      //     hangul: '',
+      //     category: 'Punches'
+      //   },
+      //   relationships: {}
+      // }, {
+        id: 106,
         type: 'terminology',
         attributes: {
-          term: 'Face Level/High Punch',
-          japanese: 'Jodan Zuki',
+          term: 'Kicks',
+          japanese: 'Geri',
           kanji: '',
-          korean: '',
+          korean: 'Chagi',
           hangul: '',
-          category: 'Punches'
+          category: ''
         },
         relationships: {}
       }, {
-        id: 407,
+        id: 600,
         type: 'terminology',
         attributes: {
-          term: 'Double U Punch',
-          japanese: 'Morote Zuki',
+          term: 'Front Kick',
+          japanese: 'Mae Geri',
           kanji: '',
-          korean: '',
+          korean: 'Ahp Chagi',
           hangul: '',
-          category: 'Punches'
+          category: 'Kicks'
         },
         relationships: {}
       }, {
-        id: 408,
+        id: 601,
         type: 'terminology',
         attributes: {
-          term: 'Knee Block',
-          japanese: 'Hiza Uke',
+          term: 'Roundhouse Kick',
+          japanese: 'Mawashi Geri',
           kanji: '',
-          korean: '',
+          korean: 'Dollyo Chagi',
           hangul: '',
-          category: 'Punches'
+          category: 'Kicks'
         },
         relationships: {}
       }, {
-        id: 409,
+        id: 602,
         type: 'terminology',
         attributes: {
-          term: 'X-Block',
-          japanese: 'Juji Uke',
+          term: 'Side Kick',
+          japanese: 'Yoko Geri',
           kanji: '',
-          korean: '',
+          korean: 'Yeop Chagi',
           hangul: '',
-          category: 'Punches'
+          category: 'Kicks'
         },
         relationships: {}
       }, {
-        id: 410,
+        id: 107,
         type: 'terminology',
         attributes: {
-          term: 'Lunge Punch',
-          japanese: 'Oi Zuki',
+          term: 'Stance',
+          japanese: 'Dachi',
           kanji: '',
-          korean: '',
+          korean: 'Seogi',
           hangul: '',
-          category: 'Punches'
+          category: ''
         },
         relationships: {}
       }, {
-        id: 411,
+        id: 700,
         type: 'terminology',
         attributes: {
-          term: 'Sweeping Block',
-          japanese: 'Nagashi Uke',
+          term: 'Front Stance',
+          japanese: 'Zenkusu Dachi',
           kanji: '',
-          korean: '',
+          korean: 'Apkubi Seogi',
           hangul: '',
-          category: 'Punches'
+          category: 'Stances'
         },
         relationships: {}
       }, {
-        id: 412,
+        id: 701,
         type: 'terminology',
         attributes: {
-          term: 'Vertical Punch',
-          japanese: 'Tate Zuki',
+          term: 'Back Stance',
+          japanese: 'Kokutsu Dachi',
           kanji: '',
-          korean: '',
+          korean: 'Dwitkubi Seogi',
           hangul: '',
-          category: 'Punches'
+          category: 'Stances'
         },
         relationships: {}
       }, {
-        id: 413,
+        id: 702,
         type: 'terminology',
         attributes: {
-          term: 'Palm Heel Punch',
-          japanese: 'Teisho Zuki',
+          term: 'Horse Stance',
+          japanese: 'Kiba Dachi',
           kanji: '',
-          korean: '',
+          korean: 'Juchun Seogi',
           hangul: '',
-          category: 'Punches'
-        },
-        relationships: {}
-      }, {
-        id: 414,
-        type: 'terminology',
-        attributes: {
-          term: 'Close Punch',
-          japanese: 'Ura Zuki',
-          kanji: '',
-          korean: '',
-          hangul: '',
-          category: 'Punches'
+          category: 'Stances'
         },
         relationships: {}
       }, {
@@ -532,7 +580,7 @@ export default Ember.Route.extend({
         id: 800,
         type: 'terminology',
         attributes: {
-          term: 'The place where one trains',
+          term: 'Training Hall',
           japanese: 'Dojo',
           kanji: '',
           korean: 'Dojang',
@@ -556,10 +604,10 @@ export default Ember.Route.extend({
         id: 802,
         type: 'terminology',
         attributes: {
-          term: 'Begin',
-          japanese: 'Hajime',
+          term: 'Attention',
+          japanese: 'Kiotsuke',
           kanji: '',
-          korean: '',
+          korean: 'Chary-ut',
           hangul: '',
           category: 'Miscellaneous'
         },
@@ -568,10 +616,10 @@ export default Ember.Route.extend({
         id: 803,
         type: 'terminology',
         attributes: {
-          term: 'Bow',
-          japanese: 'Rei',
+          term: 'Begin',
+          japanese: 'Hajime',
           kanji: '',
-          korean: '',
+          korean: 'Sijak',
           hangul: '',
           category: 'Miscellaneous'
         },
@@ -580,10 +628,10 @@ export default Ember.Route.extend({
         id: 804,
         type: 'terminology',
         attributes: {
-          term: 'Basic',
-          japanese: 'Kihon',
+          term: 'Bow',
+          japanese: 'Rei',
           kanji: '',
-          korean: '',
+          korean: 'Kyungnet',
           hangul: '',
           category: 'Miscellaneous'
         },
@@ -592,10 +640,10 @@ export default Ember.Route.extend({
         id: 805,
         type: 'terminology',
         attributes: {
-          term: 'Technique',
-          japanese: 'Waza',
+          term: 'Basic Techniques',
+          japanese: 'Kihon Waza',
           kanji: '',
-          korean: '',
+          korean: 'Ki Bon Sul',
           hangul: '',
           category: 'Miscellaneous'
         },
@@ -604,10 +652,58 @@ export default Ember.Route.extend({
         id: 806,
         type: 'terminology',
         attributes: {
-          term: 'Stop',
+          term: 'Finish',
           japanese: 'Yame',
           kanji: '',
-          korean: '',
+          korean: 'Baroh',
+          hangul: '',
+          category: 'Miscellaneous'
+        },
+        relationships: {}
+      }, {
+        id: 807,
+        type: 'terminology',
+        attributes: {
+          term: 'Finish',
+          japanese: 'Yasame',
+          kanji: '',
+          korean: 'Sho',
+          hangul: '',
+          category: 'Miscellaneous'
+        },
+        relationships: {}
+      }, {
+        id: 808,
+        type: 'terminology',
+        attributes: {
+          term: 'Yell',
+          japanese: 'Kiai',
+          kanji: '',
+          korean: 'Kihap',
+          hangul: '',
+          category: 'Miscellaneous'
+        },
+        relationships: {}
+      }, {
+        id: 809,
+        type: 'terminology',
+        attributes: {
+          term: 'Form/Pattern',
+          japanese: 'Kata',
+          kanji: '',
+          korean: 'Hyung',
+          hangul: '',
+          category: 'Miscellaneous'
+        },
+        relationships: {}
+      }, {
+        id: 810,
+        type: 'terminology',
+        attributes: {
+          term: 'Turn',
+          japanese: 'Mawatte',
+          kanji: '',
+          korean: 'Dwiro dora',
           hangul: '',
           category: 'Miscellaneous'
         },
