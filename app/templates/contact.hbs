@@ -7,11 +7,11 @@
             <p><i class="fa fa-envelope fa-fw w3-xlarge w3-margin-right"> </i> Email: <a href="mailto:kikki.tkd@gmail.com?Subject=Beltz.ninja" target="_top">kikki.tkd@gmail.com</a></p>
             <br>
             <form action="form.asp" target="_blank">
-                <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-                <p><button class="w3-btn w3-round w3-padding" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button></p>
+                <p>{{input type="text" placeholder="Name" name="Name" class="w3-input w3-border" value=name}}</p>
+                <!--<p>{{!input type="text" placeholder="Email" name="Email" class="w3-input w3-border" value=email}}</p>-->
+                <p>{{input type="text" placeholder="Subject" name="Subject" class="w3-input w3-border" value=subject}}</p>
+                <p>{{input type="text" placeholder="Message" name="Message" class="w3-input w3-border" value=message}}</p>
+                <p><button {{action 'sendEmail' name subject message}} class="w3-btn w3-round w3-padding" type="submit"><i class="fa fa-paper-plane"></i> SEND MESSAGE</button></p>
             </form>
         </div>
         <div class="w3-half w3-padding-12">
